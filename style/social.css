@@ -25,6 +25,7 @@
         text-align: center;
         text-decoration: none;
         transition: .1s;
+        margin-top: -4px;
     }
 
     a:hover{
