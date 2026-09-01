@@ -38,3 +38,25 @@ main {
     width: 267px;
     height: 471px;
 }
+
+#redes {
+    text-align: right;
+}
+
+#redes > a > img {
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+#redes img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.644);
+    transition: .2s, border .4s;
+}
+
+#linkedin {
+  padding: 3px;
+  background-color: #0077b5;
+}
